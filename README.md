@@ -15,3 +15,5 @@
 
 Mp3's are played using system's default player.
 
+Compiled using `g++.exe (Rev5, Built by MSYS2 project) 10.3.0`.
+
