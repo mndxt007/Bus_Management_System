@@ -5,6 +5,7 @@
 #include <string.h>
 #include <time.h>
 
+
 //struct for linked list
 struct ticke
 {
@@ -288,6 +289,8 @@ int main()
 	}
 }
 
+//loading screen
+
 void loading()
 {
 	int i,x=38;
@@ -311,6 +314,8 @@ void loading()
 	}
 	Sleep(500);
 }
+
+//new ticket screen
 
 void newticket()
 {
@@ -415,6 +420,8 @@ void newticket()
 	getch();
 }
 
+//daily pass screen
+
 void pass()
 {
 	system("cls");
@@ -465,6 +472,8 @@ void pass()
 	getch();
 }
 
+//ticket database linked list
+
 void database()
 {
 	system("cls");
@@ -514,6 +523,8 @@ void database()
 
 }
 
+//print chars
+
 void printfdash(int x, int y)
 {
 	int i,x1=0,y1=y;
@@ -535,7 +546,7 @@ void printfdash(int x, int y)
 	}
 
 }
-
+// for navigating in console
 COORD coord = {0, 0}; 
 void gotoxy (int x, int y)
         {
