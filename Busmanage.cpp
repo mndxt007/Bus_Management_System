@@ -5,6 +5,7 @@
 #include <string.h>
 #include <time.h>
 
+//struct for linked list
 struct ticke
 {
 	int full;
@@ -20,6 +21,8 @@ struct ticke
 	struct ticke *link;
 };
 typedef struct ticke ticket;
+
+//declarations
 
 ticket *head;
 ticket *prev;//for tickets
@@ -55,6 +58,8 @@ int flag=0;
 
 int counter=0,tno=100,pno=1000;
 
+
+//update current stop
 
 int update()
 {
@@ -126,6 +131,7 @@ int update()
 	
 }
 
+//announce current stop
 
 void current()
 {
@@ -163,6 +169,7 @@ void current()
 	
 }
 
+//announce next stop
 int next()
 {
 	rectangle(9,6,70,18);
